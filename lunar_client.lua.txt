@@ -9,6 +9,16 @@ local Window = Fluent:CreateWindow({
     Acrylic = true,
     Theme = "Rose",
     MinimizeKey = Enum.KeyCode.End
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=71164747078780",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
 })
 local Tabs = {
      Main = Window:AddTab({ Title = "Tab Main", Icon = "" }),
